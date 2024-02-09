@@ -5,7 +5,8 @@
 ## Table of Contents ##
 1. [Business Focus](https://github.com/ari-sen/Guidehouse-1D/blob/main/ReadMe.md#business-focus-and-summary)
 2. [Data Description, Preparation, and Validation](https://github.com/ari-sen/Guidehouse-1D/blob/main/ReadMe.md#data-description-preparation-and-validation)
-3. [Modelling](https://github.com/ari-sen/Guidehouse-1D/blob/main/README.md#modelling)
+3. [Model Approach](
+https://github.com/ari-sen/Guidehouse-1D/blob/main/ReadMe.md#approach)
 4. [Key Findings and Results ](https://github.com/ari-sen/Guidehouse-1D/blob/main/ReadMe.md#key-findings-and-insights)
 5. [Acknowledgements](https://github.com/ari-sen/Guidehouse-1D/blob/main/ReadMe.md#acknowledgments)
 
