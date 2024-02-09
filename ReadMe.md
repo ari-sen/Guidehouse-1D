@@ -19,9 +19,9 @@ This project is a response to the humanitarian crisis in Ukraine, which was inva
 > [!NOTE]
 >Consider that we wanted to:
 
- > - Utilize data analysis and forecasting techniques, by using AI/ML principles, to draw predictions toward future humanitarian efforts required
- > - Acknowledge the sensitivity of the humanitarian crisis in Ukraine within our data manipulation process.
- > - Solutions from our ML model(s) to be adequate to the Guidehouse Advanced Analytics & Intelligent Automation (AAIA) team’s future clientele.
+  - Utilize data analysis and forecasting techniques, by using AI/ML principles, to draw predictions toward future humanitarian efforts required
+  - Acknowledge the sensitivity of the humanitarian crisis in Ukraine within our data manipulation process.
+  - Solutions from our ML model(s) to be adequate to the Guidehouse Advanced Analytics & Intelligent Automation (AAIA) team’s future clientele.
 
 
 ## Data Description, Preparation, and Validation  ##
