@@ -103,6 +103,7 @@ From Cluster 0 and 1,  the number of people affected was highly correlated with 
 
 ![clus3](https://github.com/ari-sen/Guidehouse-1D/assets/79394251/d50df544-d84c-43cd-b9d0-a41d8503485f)
 
+![32d5cdba870307ebe61497a00e955905](https://github.com/ari-sen/Guidehouse-1D/assets/79394251/c6374df4-588a-452b-a299-c69a0cf48d6e)
 
 
 
