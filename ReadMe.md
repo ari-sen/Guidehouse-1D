@@ -90,7 +90,8 @@ We selected 2 main candidate models to guide us through this AI Studio project:
 Cluster Model using PCA – we selected this model because it can efficiently handle the high dimensionality our dataset had by reducing the dimensions while capturing the significance variance between the components. Additionally, we considered visualization as it was able to increase simplified interpretability for our audience while maintaining 
 
 Simple Time Series Model –  we selected this model because we wanted to include a mix of supervised and unsupervised especially since we wanted to be able to predict or forecast further displacement in a specific region. 
-CLUSTER ANALYSIS
+
+### CLUSTER ANALYSIS ###
 
 Throughout our project, we wanted to analyze which cluster each Oblast was represented by whether there were any trends within those regions, and the amount of internally displaced people. 
 
@@ -141,18 +142,7 @@ As a result, we found that predicting displacement within Ukraine is possible bu
 Below is a snippet of the master dataset represented by Cluster 2, with Oblast  = Kyivska.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+![b3a750c3e5e2fcf2a239f977e9d09575](https://github.com/ari-sen/Guidehouse-1D/assets/79394251/fc71dc9b-7cb0-499a-9d18-6096c0811672)
 
 
 As you can see there are two rows where the km2  controlled by Russian Forces was 8440, but over the months decreased back down to 0. Therefore, we were able to see that that may be why the correlation between the amount of geographic space controlled by Russian forces and registered IDPs was negative, specifically -0.91. However, for the red features that had a higher correlation:  km2 of unconfirmed control and km2 controlled by Ukrainian forces, there are more 0’s which can be explained throughout the months not only by other features but also context, that being how much each region was impacted over time by Russia’s invasion.
