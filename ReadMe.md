@@ -54,6 +54,9 @@ Since we had a lot of features, we anticipated the heatmap to be big. As we obse
 
 Next, we experimented with inertia and distortion to apply the elbow method to find the optimal number of clusters. For distortion, we found that the number of optimal clusters was 5 and inertia resulted in 4. In the end, we decided to expand upon the inertia method and apply PCA to 4 cluster groups using scalar standardization. Before applying PCA, we had to convert the most relevant categorical feature to a numerical value: Oblasts and scale the time column. For this dilemma, there were two methods: giving each Oblast a number for our time series model or creating dummies for the Oblasts. In the end, thanks to Aaleia, we created dummy variables for the regions which eased our PCA process as we were able to include Oblasts in our analysis and not lose much information geographically. The heat map and k-means analysis guided us to further evaluate the clusters in depth.
 
+![a6657bd95db290d53602f08041bad25a](https://github.com/ari-sen/Guidehouse-1D/assets/79394251/496f1a96-51fa-48ed-a88f-df6da1a7359d)
+
+
 
 ### Feature Selection  ###
 
