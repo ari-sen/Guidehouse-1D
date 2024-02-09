@@ -101,7 +101,7 @@ Moreover, through PCA we found and defined Cluster 0 and 1 to represent the admi
 From Cluster 0 and 1,  the number of people affected was highly correlated with registered IDPs. Cluster 2 majority of unconfirmed and confirmed regions of Ukraine were correlated with registered IDPs. Cluster 3, which we analyzed had a high correlation between male and female older populations and registered IDPs but had a weaker correlation with the impacted regions in Ukraine and Russia. Lastly, you would think that there would be some type of correlation, moderate or strong between registered IDPs and km2  of Russian Forces especially in Kyiv, however, there were consistently lower correlations across all 4 clusters as demonstrated below in the correlation map.       
 
 
-
+![clus3](https://github.com/ari-sen/Guidehouse-1D/assets/79394251/d50df544-d84c-43cd-b9d0-a41d8503485f)
 
 
 
@@ -143,7 +143,7 @@ Below is a snippet of the master dataset represented by Cluster 2, with Oblast  
 
 
 ![b3a750c3e5e2fcf2a239f977e9d09575](https://github.com/ari-sen/Guidehouse-1D/assets/79394251/fc71dc9b-7cb0-499a-9d18-6096c0811672)
-
+![clus2](https://github.com/ari-sen/Guidehouse-1D/assets/79394251/1196e377-6d9f-4a15-8242-66b4dd41cd6a)
 
 As you can see there are two rows where the km2  controlled by Russian Forces was 8440, but over the months decreased back down to 0. Therefore, we were able to see that that may be why the correlation between the amount of geographic space controlled by Russian forces and registered IDPs was negative, specifically -0.91. However, for the red features that had a higher correlation:  km2 of unconfirmed control and km2 controlled by Ukrainian forces, there are more 0’s which can be explained throughout the months not only by other features but also context, that being how much each region was impacted over time by Russia’s invasion.
 
@@ -159,7 +159,10 @@ The one strategy that our team used to validate our time series model was splitt
 
 ## Key Results ##
 
-From our gatherings and efforts, our final model included a PCA visualization of the 4 clusters on a map of Ukraine and 4 correlation maps, each representing the clusters thanks to Sherin. From the 32 features used, we were able to minimize it down to 7 optimal features as presented on our correlation maps: female older population, male population,  total older population, people affected, km2 of unconfirmed control, km2 controlled by Ukrainian forces, and km2 controlled by Russian forces. In addition to those two models, we also included our time series model in our final submission keeping the 85-15 split to get the accuracy score of 0.04149. From our time series model, we found as the time of the crisis increased, the amount of registered IDPs also increased with a predicted value of 1.2 at its peak. Which, according to our cluster analysis was correlated to the amount of geographical space concerned
+From our gatherings and efforts, our final model included a PCA visualization of the 4 clusters on a map of Ukraine and 4 correlation maps, each representing the clusters thanks to Sherin. From the 32 features used, we were able to minimize it down to 7 optimal features as presented on our correlation maps: female older population, male population,  total older population, people affected, km2 of unconfirmed control, km2 controlled by Ukrainian forces, and km2 controlled by Russian forces. In addition to those two models, we also included our time series model in our final submission keeping the 85-15 split to get the accuracy score of 0.04149. From our time series model, we found as the time of the crisis increased, the amount of registered IDPs also increased with a predicted value of 1.2 at its peak. Which, according to our cluster analysis was correlated to the amount of geographical space concerned.
+
+![clusmap](https://github.com/ari-sen/Guidehouse-1D/assets/79394251/573b2283-c3de-4b34-9b90-164698de8441)
+
 
 
 ## Insights ##
