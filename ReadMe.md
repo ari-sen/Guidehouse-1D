@@ -4,15 +4,15 @@
 
 ## Table of Contents ##
 1. [Business Focus](https://github.com/ari-sen/Guidehouse-1D/blob/main/ReadMe.md#business-focus-and-summary)
-2. [Data Preparation and Validation](https://github.com/ari-sen/Guidehouse-1D/blob/main/README.md#data-preparation-and-validation)
+2. [DATA DESCRIPTION, PREPARATION, AND VALIDATION](https://github.com/ari-sen/Guidehouse-1D/blob/main/ReadMe.md#data-description-preparation-and-validation)
 3. [Modelling](https://github.com/ari-sen/Guidehouse-1D/blob/main/README.md#modelling)
 4. [Results](https://github.com/ari-sen/Guidehouse-1D/blob/main/README.md#result--achieved-an-average-rmse-of004149-across-4-clusters-25-regions-implying-high-accuracy)
 5. [Evaluation & Looking Forward](https://github.com/ari-sen/Guidehouse-1D/blob/main/README.md#evaluation--looking-forward)
-6. [Credits](https://github.com/ari-sen/Guidehouse-1D/blob/main/README.md#credits)
+6. [Credits](https://github.com/ari-sen/Guidehouse-1D/blob/main/ReadMe.md#acknowledgments)
 
 
 
-## BUSINESS FOCUS AND SUMMARY  ##
+## Business Focus and Summary  ##
 
 This project is a response to the humanitarian crisis in Ukraine, which was invaded by Russia in February 2022. The crisis has resulted in tens of thousands of people impacted through casualties and internal displacement. More than 8.2 million civilians fled the country, which by April 2023 created Europe’s largest refugee crisis. Besides the mentioned impacts, there was major environmental damage caused by the war which contributed to food crises worldwide and food aid. The ML along with our time series model aims to use the ACAPS Ukraine Master dataset to forecast patterns such as certain needs and the demographics of people internally displaced within different regions known as Oblasts. Additionally, the primary goal of our model besides forecasting needs, was to get any valuable insight that would benefit and guide humanitarian efforts and organizations that aim to provide aid to those affected. Our results for our time series model was an RMSE score of 0.04149 which indicated high accuracy in predicting registered IDPs.
 Data Preparation and Validation
