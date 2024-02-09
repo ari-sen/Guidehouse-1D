@@ -129,9 +129,7 @@ We used an 85-15 split to account for any unexpected spikes in IDP numbers
 
 
 
-
-
-
+![f9f24a7618266d2131cf78ef46f4ccde](https://github.com/ari-sen/Guidehouse-1D/assets/79394251/a30752ea-0bcf-4267-9be5-b11340a00694)
 
 
 
@@ -157,7 +155,7 @@ Below is a snippet of the master dataset represented by Cluster 2, with Oblast  
 
 
 
- As you can see there are two rows where the km2  controlled by Russian Forces was 8440, but over the months decreased back down to 0. Therefore, we were able to see that that may be why the correlation between the amount of geographic space controlled by Russian forces and registered IDPs was negative, specifically -0.91. However, for the red features that had a higher correlation:  km2 of unconfirmed control and km2 controlled by Ukrainian forces, there are more 0’s which can be explained throughout the months not only by other features but also context, that being how much each region was impacted over time by Russia’s invasion.
+As you can see there are two rows where the km2  controlled by Russian Forces was 8440, but over the months decreased back down to 0. Therefore, we were able to see that that may be why the correlation between the amount of geographic space controlled by Russian forces and registered IDPs was negative, specifically -0.91. However, for the red features that had a higher correlation:  km2 of unconfirmed control and km2 controlled by Ukrainian forces, there are more 0’s which can be explained throughout the months not only by other features but also context, that being how much each region was impacted over time by Russia’s invasion.
 
 ### Prevent Overfitting ###
 
