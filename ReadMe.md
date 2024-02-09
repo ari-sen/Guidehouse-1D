@@ -50,19 +50,19 @@ In total, our master dataset had 34 features, but we decided to use 32 out of 34
 
 We made sure that our model focused on the following features:
 
-Area controlled by Ukraine and Russia
+ - Area controlled by Ukraine and Russia
 
-Population and people exposed
+- Population and people exposed
 
-Demographics
+- Demographics
 
-Levels of Severity from 1-5 (Minimal, stressed, moderate, severe, extreme)
+- Levels of Severity from 1-5 (Minimal, stressed, moderate, severe, extreme)
 
-Violence
+- Violence
 
-Fatalities
+- Fatalities
 
-Unemployment
+- Unemployment
 
 Since we wanted to start with the unsupervised learning approach first to find more broad patterns in our data, this was relevant to understanding the territorial dynamics through geographical context. It also aligned with our goal to create an unbiased model since we were including demographics of age and gender, it allowed for our model to capture how the crisis impacted different sectors of the population. Lastly, since we didn’t include fuel costs, unemployment was an alternative to representing the correlation between any economic instability and displacement. 
 
