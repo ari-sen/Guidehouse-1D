@@ -31,7 +31,7 @@ Impact of crisis
 People in need
 Condition of people
 Access to humanitarian needs - healthcare, education, shelter, food
-## Dataset Preparation ##
+### Dataset Preparation ###
 
 As mentioned, we removed null values but also removed any non-numerical values such as postal code, since we felt that wouldn’t be beneficial to locations like the Oblast feature. In terms of relevance, we removed data on wages, income, pension, and inflation and also food/fuel cost data as it was too likely for them to be affected by other confounding variables.
 
