@@ -4,11 +4,10 @@
 
 ## Table of Contents ##
 1. [Business Focus](https://github.com/ari-sen/Guidehouse-1D/blob/main/ReadMe.md#business-focus-and-summary)
-2. [DATA DESCRIPTION, PREPARATION, AND VALIDATION](https://github.com/ari-sen/Guidehouse-1D/blob/main/ReadMe.md#data-description-preparation-and-validation)
+2. [Data Description, Preparation, and Validation](https://github.com/ari-sen/Guidehouse-1D/blob/main/ReadMe.md#data-description-preparation-and-validation)
 3. [Modelling](https://github.com/ari-sen/Guidehouse-1D/blob/main/README.md#modelling)
-4. [Results](https://github.com/ari-sen/Guidehouse-1D/blob/main/README.md#result--achieved-an-average-rmse-of004149-across-4-clusters-25-regions-implying-high-accuracy)
-5. [Evaluation & Looking Forward](https://github.com/ari-sen/Guidehouse-1D/blob/main/README.md#evaluation--looking-forward)
-6. [Credits](https://github.com/ari-sen/Guidehouse-1D/blob/main/ReadMe.md#acknowledgments)
+4. [Key Findings and Results ](https://github.com/ari-sen/Guidehouse-1D/blob/main/ReadMe.md#key-findings-and-insights)
+5. [Acknowledgements](https://github.com/ari-sen/Guidehouse-1D/blob/main/ReadMe.md#acknowledgments)
 
 
 
