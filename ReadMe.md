@@ -17,7 +17,9 @@
 This project is a response to the humanitarian crisis in Ukraine, which was invaded by Russia in February 2022. The crisis has resulted in tens of thousands of people impacted through casualties and internal displacement. More than 8.2 million civilians fled the country, which by April 2023 created Europe’s largest refugee crisis. Besides the mentioned impacts, there was major environmental damage caused by the war which contributed to food crises worldwide and food aid. The ML along with our time series model aims to use the ACAPS Ukraine Master dataset to forecast patterns such as certain needs and the demographics of people internally displaced within different regions known as Oblasts. Additionally, the primary goal of our model besides forecasting needs, was to get any valuable insight that would benefit and guide humanitarian efforts and organizations that aim to provide aid to those affected. Our results for our time series model was an RMSE score of 0.04149 which indicated high accuracy in predicting registered IDPs.
 Data Preparation and Validation
 
-## DATASET DESCRIPTION ##
+## DATA DESCRIPTION, PREPARATION, AND VALIDATION ##
+
+### DATASET DESCRIPTION ###
 
 We were originally given 6 datasets provided by the humanitarian data exchange as linked: Ukraine 2023 Humanitarian Needs Overview People in Need, Ukraine Response Activities, Ukraine Flash Appeal, and Humanitarian Needs Overview (2021  - 2023), and ACAPS Ukraine Master Dataset. Some datasets included a variety of categorical and quantitative features such as Oblasts, # of people in need, severity score, amount of people exposed, and number of fatalities while others had the amount of people that received specific humanitarian aid like education.
 
@@ -33,7 +35,7 @@ Access to humanitarian needs - healthcare, education, shelter, food
 
 As mentioned, we removed null values but also removed any non-numerical values such as postal code, since we felt that wouldn’t be beneficial to locations like the Oblast feature. In terms of relevance, we removed data on wages, income, pension, and inflation and also food/fuel cost data as it was too likely for them to be affected by other confounding variables.
 
-## EDA (EXPLORATORY DATA ANALYSIS) ##
+### EDA (EXPLORATORY DATA ANALYSIS) ###
 
 We divided exploratory data analysis between each other as we had 526 columns of data. Firstly, looking at the data before finding any patterns or trends, we noticed that most of the outliers were of low values, that being 0 fatalities which was accounted for by the month the data was recorded. Most of the outliers occurred in January 2022 - February 2022, which made sense since that was the beginning of the invasion. 
 
@@ -45,7 +47,7 @@ Since we had a lot of features, we anticipated the heatmap to be big. As we obse
 Next, we experimented with inertia and distortion to apply the elbow method to find the optimal number of clusters. For distortion, we found that the number of optimal clusters was 5 and inertia resulted in 4. In the end, we decided to expand upon the inertia method and apply PCA to 4 cluster groups using scalar standardization. Before applying PCA, we had to convert the most relevant categorical feature to a numerical value: Oblasts and scale the time column. For this dilemma, there were two methods: giving each Oblast a number for our time series model or creating dummies for the Oblasts. In the end, thanks to Aaleia, we created dummy variables for the regions which eased our PCA process as we were able to include Oblasts in our analysis and not lose much information geographically. The heat map and k-means analysis guided us to further evaluate the clusters in depth.
 
 
-## FEATURE SELECTION ##
+### FEATURE SELECTION ###
 
 In total, our master dataset had 34 features, but we decided to use 32 out of 34 features since it would be representative of reasons why internally displaced people numbers may be higher than other data points. Feature importance was particularly important for our model as we wanted to account for as much inclusivity as we could when addressing the crisis. 
 
