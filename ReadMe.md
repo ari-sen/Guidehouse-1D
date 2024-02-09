@@ -2,7 +2,7 @@
 # Fall 2023, AI Studio Project Write-Up #
 
 
-##Table of Contents##
+## Table of Contents ##
 Business Focus
 Data Preparation and Validation
 Approach
