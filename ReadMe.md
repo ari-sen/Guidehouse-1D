@@ -1,4 +1,4 @@
-# Predicting Ukraine's Emerging Humanitarian Needs, Guidehouse #
+# Forecasting Ukraine's Emerging Humanitarian Needs, Guidehouse #
 # Fall 2023, AI Studio Project Write-Up #
 
 
@@ -15,7 +15,13 @@ https://github.com/ari-sen/Guidehouse-1D/blob/main/ReadMe.md#approach)
 ## Business Focus and Summary  ##
 
 This project is a response to the humanitarian crisis in Ukraine, which was invaded by Russia in February 2022. The crisis has resulted in tens of thousands of people impacted through casualties and internal displacement. More than 8.2 million civilians fled the country, which by April 2023 created Europe’s largest refugee crisis. Besides the mentioned impacts, there was major environmental damage caused by the war which contributed to food crises worldwide and food aid. The ML along with our time series model aims to use the ACAPS Ukraine Master dataset to forecast patterns such as certain needs and the demographics of people internally displaced within different regions known as Oblasts. Additionally, the primary goal of our model besides forecasting needs, was to get any valuable insight that would benefit and guide humanitarian efforts and organizations that aim to provide aid to those affected. Our results for our time series model was an RMSE score of 0.04149 which indicated high accuracy in predicting registered IDPs.
-Data Preparation and Validation
+
+Consider that we wanted to:
+
+ - Utilize data analysis and forecasting techniques, by using AI/ML principles, to draw predictions toward future humanitarian efforts required
+ - Acknowledge the sensitivity of the humanitarian crisis in Ukraine within our data manipulation process.
+ - Solutions from our ML model(s) to be adequate to the Guidehouse Advanced Analytics & Intelligent Automation (AAIA) team’s future clientele.
+
 
 ## Data Description, Preparation, and Validation  ##
 
