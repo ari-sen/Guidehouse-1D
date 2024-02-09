@@ -47,7 +47,8 @@ As mentioned, we removed null values but also removed any non-numerical values s
 We divided exploratory data analysis between each other as we had 526 columns of data. Firstly, looking at the data before finding any patterns or trends, we noticed that most of the outliers were of low values, that being 0 fatalities which was accounted for by the month the data was recorded. Most of the outliers occurred in January 2022 - February 2022, which made sense since that was the beginning of the invasion. 
 
 To get an overview of which features had strong or weak correlations, we first created a heat map.
-2 https://github.com/ari-sen/Guidehouse-1D
+![d4ef7e0723cba5aacde03960a80cf8f8](https://github.com/ari-sen/Guidehouse-1D/assets/79394251/e2f9ec71-de30-4bcc-af3e-2279dcf91d18)
+
 
 Since we had a lot of features, we anticipated the heatmap to be big. As we observed, there’s a pattern of 1’s, a duplicate correlation of each feature, such as a correlation between battles and battles. Despite that, many features like people in level 3 humanitarian conditions and registered IDPs had a strong correlation of .61, and km2 of Russian forces consistently had lower correlations with IDPs. This gave us great insight into what to expect for our cluster analysis. 
 
